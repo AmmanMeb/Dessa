@@ -11,9 +11,9 @@ function Header() {
     return(
       <header>
         <div className = "img-1">
-            <img src = {logo} alt = "Logo" width="20" height="20"></img>
+            <img src = {logo} alt = "Logo" width="63" height="59"></img>
         </div>
-        <a>
+        <a className = "title">
             DESSA
         </a>
         <nav>              
@@ -21,10 +21,10 @@ function Header() {
                <li><a href="#">PRODUCTS</a></li>
                <li><a href="#">SUPPORT</a></li>
                <div className = "img-2">
-                 <img src = {search} alt = "Logo" width="20" height="20"></img>
+                 <img src = {search} alt = "Search" width="44" height="44"></img>
                </div>
                <div className = "img-3">
-                 <img src = {shop} alt = "Logo" width="20" height="20"></img>
+                 <img src = {shop} alt = "Shop" width="66" height="62"></img>
                </div>                               
             </ul>
         </nav>
