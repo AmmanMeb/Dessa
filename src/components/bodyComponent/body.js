@@ -26,7 +26,7 @@ class Body extends Component {
           <div className = "text-3">
               Type your Email below to recieve further updates
           </div>
-          <input>{this.state.input}</input>
+          <input value = {this.state.input} />
           <button onClick= {this.onSubmit}>Send</button>
           <p id="error"></p>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"></link>
