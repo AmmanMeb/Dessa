@@ -1,0 +1,54 @@
+.image-banner {
+  background-image: url("../../pics/MiniPhone.jpg");
+  height: calc(100vh - 91px);
+  min-height: 300%;
+  background-size: cover;
+  position: relative;
+  top: 0vh;
+}
+
+.text-1 {
+  font-size: 60px;
+  font-family: Roboto;
+  font-weight: 400;
+  padding-top: 17vh;
+  padding-right: 69vh;
+  text-align: center;
+}
+
+.text-2 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: Roboto;
+  padding-top: 3vh;
+  width: 600px;
+  text-align: center;
+  padding-left: 27vh;
+}
+
+.text-3 {
+  font-size: 20px;
+  font-family: Roboto;
+  padding-left: 39vh;
+  padding-top: 3vh;
+}
+
+input {
+  position: relative;
+  left: 44vh;
+  padding-right: 30vh;
+  line-height: 20px;
+  border-radius: 19px;
+  border-width: 1px;
+  top: 3vh;
+}
+
+button {
+  position: relative;
+  left: 38vh;
+  border-radius: 0vh 7vh 7vh 0;
+  color: black;
+  line-height: 20px;
+  border-width: 1px;
+  top: 3vh;
+}
