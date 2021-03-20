@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
 import './body.css'
 
-function Body() {    
+function Body() {  
+  
+    this.state = {
+      input: "",
+    };
+  
+  const onSubmit = (event) => {
+    event.preventDefault()
+     if (this.state.input.length != 1) {
+       return document.getElementById('error').innerHTML="No email found"
+     }
+  }
     return(
       <section className = "image-banner">                   
           <div className = "text-1">
@@ -13,9 +24,9 @@ function Body() {
           <div className = "text-3">
               Type your Email below to recieve further updates
           </div>
-          <input></input>
-          <button>Send</button>
-          
+          <input>{this.state.input}</input>
+          <button onClick={onSubmit}>Send</button>
+          <p id="error"></p>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"></link>
       </section>
       
