@@ -10,7 +10,7 @@ class Body extends Component {
   }
   onSubmit = (event) => {
     event.preventDefault()
-     if (this.state.input.length != 1) {
+     if (this.state.input.length < 1) {
        return document.getElementById('error').innerHTML="No email found"
      }
   }
