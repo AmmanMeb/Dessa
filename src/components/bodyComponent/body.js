@@ -8,10 +8,23 @@ class Body extends Component {
       input: "",
     };
   }
+
+  
   onSubmit = (event) => {
     event.preventDefault()
      if (this.state.input.length < 1) {
-       return document.getElementById('error').innerHTML="No email found"
+       return document.getElementById('error').innerHTML="Please type an email address in the field"
+     }
+
+     var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+     if(this.state.input.value === (mailformat))
+     {     
+      return true;
+     }
+       else
+     {
+      return document.getElementById('error').innerHTML="Please type a valid email address in the field"
+       
      }
   }
   render() {
