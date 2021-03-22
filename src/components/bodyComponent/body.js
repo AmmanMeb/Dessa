@@ -17,7 +17,7 @@ class Body extends Component {
      }
 
      var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-     if(this.state.input.value === (mailformat))
+     if(this.state.input.value !== (mailformat))
      {     
       return true;
      }
