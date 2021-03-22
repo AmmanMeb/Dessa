@@ -16,8 +16,8 @@ class Body extends Component {
        return document.getElementById('error').innerHTML="Please type an email address in the field"
      }
 
-     var mailformat = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-     if(this.state.input.value !== (mailformat))
+     var mailformat = "@";
+     if(this.state.input.value === (mailformat))
      {     
       return true;
      }
