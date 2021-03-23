@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import validator from 'validator'
 import './body.css'
 
-class Body extends Component {  
-  constructor(props) {
-    super(props);
-    this.state = {
-      input: "",
-    };
-  }
-
+class Body extends Component {   
+    constructor(props) {
+      super(props);
+      this.state = {
+        input: "",
+      };
+    }
   
   onSubmit = (event) => {
     event.preventDefault()
@@ -17,16 +15,18 @@ class Body extends Component {
        return document.getElementById('error').innerHTML="Please type an email address in the field"
      }
      
-     var email = e.target.value
+     let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-     if(validator.isEmail(email)) {     
-      return true;
-     }
-
-     else  {
-      return document.getElementById('error').innerHTML="Please type a valid email address in the field"       
-     }
+    if ( re.test(this.state.input) ) {
+        return true;
+    }
+    else {
+      return document.getElementById('error').innerHTML="Please type a valid email address in the field"
+    }
+         
   }
+
+ 
   render() {
     return(
       <section className = "image-banner">                   
