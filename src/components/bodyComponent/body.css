@@ -41,14 +41,24 @@ input {
   border-radius: 19px;
   border-width: 1px;
   top: 3vh;
+  z-index: 1 1000;
 }
 
 button {
   position: relative;
   left: 38vh;
   border-radius: 0vh 7vh 7vh 0;
-  color: black;
+  background-color: black;
   line-height: 20px;
   border-width: 1px;
   top: 3vh;
+  color: white;
+}
+
+p {
+  position: relative;
+  padding-left: 54vh;
+  padding-top: 2vh;
+  font-size: 14px;
+  color: red;
 }
