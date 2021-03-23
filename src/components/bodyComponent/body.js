@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import validator from 'validator'
 import './body.css'
 
 class Body extends Component {  
@@ -15,16 +16,15 @@ class Body extends Component {
      if (this.state.input.length < 1) {
        return document.getElementById('error').innerHTML="Please type an email address in the field"
      }
+     
+     var email = e.target.value
 
-     var mailformat = "@";
-     if(this.state.input.value === (mailformat))
-     {     
+     if(validator.isEmail(email)) {     
       return true;
      }
-       else
-     {
-      return document.getElementById('error').innerHTML="Please type a valid email address in the field"
-       
+
+     else  {
+      return document.getElementById('error').innerHTML="Please type a valid email address in the field"       
      }
   }
   render() {
