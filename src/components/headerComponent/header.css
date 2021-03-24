@@ -8,7 +8,7 @@
   font-size: 40px;
   letter-spacing: 5px;
 }
-header nav ul {
+.nav-links {
   display: flex;
   list-style: none;
   justify-content: space-around;
@@ -24,7 +24,7 @@ header nav ul {
   left: 1vh;
 }
 
-header nav ul li {
+.nav-links li {
   font-size: 20px;
 }
 
@@ -33,26 +33,13 @@ a:link {
   color: black;
 }
 
-.hamburger div {
-  width: 30px;
-  height: 4px;
-  background-color: white;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
-.hamburger {
-  display: none;
-  z-index: 2;
-}
-
 @media only screen and (max-width: 1000px) {
   .hamburger {
     position: absolute;
     cursor: pointer;
     right: 5%;
     top: 3%;
-    z-index: 2;
+    z-index: 99;
     bottom: 16vh;
   }
 
@@ -68,17 +55,18 @@ a:link {
     right: 0px;
     height: 100vh;
     top: -1vh;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    z-index: 4;
   }
 
   .nav-links li {
-    opacity: 0;
+    opacity: 8;
   }
 
   .line {
@@ -87,6 +75,12 @@ a:link {
     background: rgb(0, 0, 0);
     margin: 5px;
   }
+
+  
+}
+
+.nav-active {
+  transform: translateX(0%);
 }
 @keyframes navLinkFade {
   from {
