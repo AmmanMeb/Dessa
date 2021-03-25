@@ -70,14 +70,14 @@ p {
     min-height: 700%;
     background-size: cover;
     position: relative;
-    top: 4vh;
+    top: 7vh;
   }
 
   .text-1 {
     font-size: 48px;
     font-family: Roboto;
     font-weight: 400;
-    padding-top: 10vh;
+    padding-top: 8vh;
     padding-right: 0vh;
     text-align: center;
   }
@@ -86,24 +86,24 @@ p {
     font-size: 50px;
     font-weight: bold;
     font-family: Roboto;
-    padding-top: 54vh;
+    padding-top: 39vh;
     width: 400px;
     text-align: center;
-    padding-left: 6vh;
+    padding-left: 0vh;
   }
 
   .text-3 {
     font-size: 12px;
     font-family: Roboto;
-    padding-left: 17vh;
+    padding-left: 8vh;
     padding-top: 3vh;
   }
 
   input {
     position: relative;
-    left: 22vh;
+    left: 12vh;
     padding-right: 3vh;
-    line-height: 20px;
+    line-height: 10px;
     border-radius: 19px;
     border-width: 1px;
     top: 2vh;
@@ -112,10 +112,10 @@ p {
 
   button {
     position: relative;
-    left: 18vh;
+    left: 8vh;
     border-radius: 0vh 7vh 7vh 0;
     background-color: black;
-    line-height: 20px;
+    line-height: 16px;
     border-width: 1px;
     top: 2vh;
     color: white;
@@ -123,7 +123,7 @@ p {
 
   p {
     position: relative;
-    padding-left: 22vh;
+    padding-left: 12vh;
     padding-top: 2vh;
     font-size: 10px;
     color: red;
