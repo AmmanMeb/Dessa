@@ -76,7 +76,15 @@ a:link {
     margin: 5px;
   }
 
-  
+  .logo {
+    position: relative;
+    z-index: 99;
+    left: 20%;
+  }
+}
+
+.img-1 {
+  z-index: 99;
 }
 
 .nav-active {
