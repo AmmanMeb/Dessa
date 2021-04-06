@@ -30,7 +30,7 @@ class Body extends Component {
   render() {
     return(
       <section className = "image-banner">                   
-          <div className = "text-1">
+          <div className = "text-1"> 
               COMING SOON
           </div>
           <div className = "text-2">

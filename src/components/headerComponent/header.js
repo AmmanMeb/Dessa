@@ -32,12 +32,14 @@ class Header extends Component {
   render() {
     return(
       <header>
-        <div className = "img-1">
-            <img src = {logo} alt = "Logo" width="43" height="39"></img>
-        </div>
-        <a className = "title">
-            DESSA
-        </a>
+        <logo className = "logo">
+          <div className = "img-1">
+              <img src = {logo} alt = "Logo" width="43" height="39"></img>
+          </div>
+          <a className = "title">
+              DESSA
+          </a>
+        </logo>
         <nav>  
             <div  onClick = {this.navSlide} class="hamburger">
                 <div class="line"></div>
