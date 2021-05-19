@@ -33,7 +33,7 @@ a:link {
   color: black;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .hamburger {
     position: absolute;
     cursor: pointer;
