@@ -1,12 +1,11 @@
-.title {
-  position: relative;
+.logo {
   float: left;
-  list-style: none;
-  padding: 0 16px;
-  bottom: 5vh;
-  left: 8vh;
+  display: flex;
   font-size: 40px;
   letter-spacing: 5px;
+}
+.title {
+  padding-left: 8px;
 }
 .nav-links {
   display: flex;
@@ -15,13 +14,7 @@
   align-items: flex-end;
   margin-left: auto;
   padding-left: 50vh;
-  height: 0vh;
-}
-
-.img-1 {
-  position: relative;
-  top: 2vh;
-  left: 1vh;
+  height: 6%;
 }
 
 .nav-links li {
