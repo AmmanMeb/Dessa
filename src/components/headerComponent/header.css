@@ -70,15 +70,26 @@ a:link {
   }
 
   .logo {
-    position: relative;
+    align-items: center;
     z-index: 99;
-    left: 20%;
-    top: 2vh;
+    font-size: 32px;
+    padding-left: 30%;
+    padding-top: 14px;
   }
 
   .img-1 {
     z-index: 99;
     top: 1vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .logo {
+    text-align: center;
+    z-index: 99;
+    font-size: 32px;
+    padding-left: 18%;
+    padding-top: 2vh;
   }
 }
 

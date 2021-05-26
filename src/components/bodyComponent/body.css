@@ -56,7 +56,7 @@ button {
 
 p {
   position: relative;
-  padding-left: 54vh;
+  padding-left: 20%;
   padding-top: 2vh;
   font-size: 14px;
   color: red;
@@ -79,7 +79,7 @@ p {
     font-family: Roboto;
     font-weight: 400;
     padding-top: 17vh;
-    padding-left: 60vh;
+    padding-left: 40%;
   }
 
   .text-2 {
@@ -87,20 +87,21 @@ p {
     font-weight: bold;
     font-family: Roboto;
     padding-top: 3vh;
-    width: 600px;
+    width: 300px;
     text-align: center;
+    padding-left: 35%;
   }
 
   .text-3 {
     font-size: 15px;
     font-family: Roboto;
-    padding-left: 49vh;
+    padding-left: 37%;
     padding-top: 3vh;
   }
   input {
     position: relative;
-    left: 57vh;
-    padding-right: 20vh;
+    left: 40%;
+    padding-right: 10%;
     line-height: 10px;
     border-radius: 17px;
     border-width: 1px;
@@ -109,7 +110,7 @@ p {
   }
   button {
     position: relative;
-    left: 50vh;
+    left: 38%;
     border-radius: 0vh 7vh 7vh 0;
     background-color: black;
     line-height: 16px;
@@ -121,7 +122,7 @@ p {
 
   p {
     position: relative;
-    padding-left: 54vh;
+    padding-left: 46%;
     padding-top: 2vh;
     font-size: 10px;
     color: red;
@@ -137,56 +138,56 @@ p {
   }
 
   .text-1 {
-    font-size: 48px;
+    font-size: 38px;
     font-family: Roboto;
     font-weight: 400;
-    padding-top: 8vh;
-    padding-right: 0vh;
+    padding-top: 10px;
+    padding-left: 47%;
     text-align: center;
   }
 
   .text-2 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     font-family: Roboto;
     padding-top: 39vh;
-    width: 400px;
+    width: 300px;
     text-align: center;
-    padding-left: 0vh;
+    padding-left: 49%;
   }
 
   .text-3 {
     font-size: 12px;
     font-family: Roboto;
-    padding-left: 8vh;
+    padding-left: 53%;
     padding-top: 3vh;
   }
 
   input {
     position: relative;
-    left: 12vh;
+    left: 55%;
     padding-right: 3vh;
     line-height: 10px;
     border-radius: 19px;
     border-width: 1px;
-    top: 2vh;
+    top: 18px;
     z-index: 1 1000;
   }
 
   button {
     position: relative;
-    left: 8vh;
-    border-radius: 0vh 7vh 7vh 0;
+    left: 53%;
+    border-radius: 0vh 19px 19px 0;
     background-color: black;
     line-height: 16px;
     border-width: 1px;
-    top: 2vh;
+    top: 18px;
     color: white;
   }
 
   p {
     position: relative;
-    padding-left: 12vh;
+    padding-left: 55%;
     padding-top: 2vh;
     font-size: 10px;
     color: red;
