@@ -15,6 +15,7 @@ class Header extends Component {
 
         hamburger.addEventListener('click', () => {
            nav.classList.toggle('nav-active');
+           
 
            navLinks.forEach((link, index) => {
             if (link.style.animation) {
@@ -49,12 +50,14 @@ class Header extends Component {
             <ul  onClick = {this.navSlide} className="nav-links">                
                <li><a href="#">PRODUCTS</a></li>
                <li><a href="#">SUPPORT</a></li>
-               <div className = "img-2">
-                 <img src = {search} alt = "Search" width="22" height="22"></img>
-               </div>
+               <form action="">
+                <input class="search" type = "search" />
+                <i class="fa"><img src = {search} alt = "Search" width="22" height="22"></img></i>
+                
+               </form>  
                <div className = "img-3">
                  <img src = {shop} alt = "Shop" width="36" height="32"></img>
-               </div>                               
+               </div>                                              
             </ul>
         </nav>
       </header>
