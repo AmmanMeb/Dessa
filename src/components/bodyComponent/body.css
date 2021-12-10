@@ -6,6 +6,11 @@
   margin-top: 0%;
   padding-bottom: 20%;
 }
+.index-banner{
+  display: inline-block;
+  align-items: center;
+  margin-left: 11%;
+}
 
 .text-1 {
   font-size: 60px;
@@ -22,7 +27,7 @@
   padding-top: 3vh;
   width: 600px;
   text-align: center;
-  padding-left: 9%;
+  padding-left: 0%;
 }
 
 .text-3 {
@@ -34,7 +39,7 @@
 
 input {
   position: relative;
-  left: 17%;
+  left: 18%;
   padding-right: 10%;
   line-height: 20px;
   border-radius: 19px;
@@ -71,9 +76,7 @@ p {
     margin-top: 10vh;
     padding-bottom: 40%;
   }
-  .index-banner {
-    margin-left: -36vh;
-  }
+  
   .text-1 {
     font-size: 30px;
     font-family: Roboto;
