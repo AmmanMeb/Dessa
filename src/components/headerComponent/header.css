@@ -15,11 +15,17 @@
   margin-left: auto;
   padding-left: 50vh;
   height: 6%;
-  color: #000;
+  
 }
 
 .nav-links li {
   font-size: 20px;
+  
+}
+
+.nav-links li a {
+  color: #000;
+  text-decoration: none;
 }
 
 form {
