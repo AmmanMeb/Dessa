@@ -145,7 +145,7 @@ p {
     font-family: Roboto;
     font-weight: 400;
     padding-top: 10px;
-    padding-left: 47%;
+    padding-left: 0%;
     text-align: center;
   }
 
@@ -156,19 +156,19 @@ p {
     padding-top: 39vh;
     width: 300px;
     text-align: center;
-    padding-left: 49%;
+    padding-left: 0%;
   }
 
   .text-3 {
     font-size: 12px;
     font-family: Roboto;
-    padding-left: 53%;
+    padding-left: 0%;
     padding-top: 3vh;
   }
 
   input {
     position: relative;
-    left: 55%;
+    left: 5%;
     padding-right: 3vh;
     line-height: 10px;
     border-radius: 19px;
@@ -179,7 +179,7 @@ p {
 
   button {
     position: relative;
-    left: 53%;
+    left: 0%;
     border-radius: 0vh 19px 19px 0;
     background-color: black;
     line-height: 16px;
@@ -190,7 +190,7 @@ p {
 
   p {
     position: relative;
-    padding-left: 55%;
+    padding-left: 10%;
     padding-top: 2vh;
     font-size: 10px;
     color: red;
@@ -211,6 +211,29 @@ p {
   button {
     position: relative;
     left: 24%;
+    border-radius: 0vh 19px 19px 0;
+    background-color: black;
+    line-height: 30px;
+    border-width: 1px;
+    top: 18px;
+    color: white;
+  }
+}
+
+@media only screen and (min-height: 800px) and (max-width: 500px) {
+  input {
+    position: relative;
+    left: 8%;
+    padding-right: 11%;
+    line-height: 30px;
+    border-radius: 19px;
+    border-width: 1px;
+    top: 18px;
+    z-index: 1 1000;
+  }
+  button {
+    position: relative;
+    left: 0%;
     border-radius: 0vh 19px 19px 0;
     background-color: black;
     line-height: 30px;
