@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './header.css'
 import logo from '../../pics/Logo.png'
-import search from '../../pics/search.png'
 import shop from '../../pics/bag.png'
 
 
