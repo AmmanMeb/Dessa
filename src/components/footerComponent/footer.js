@@ -39,7 +39,7 @@ class Footer extends Component {
             </div>
           </div>
           <div className='text-21'>Copyright© 2021 DESSA All Rights Reserved.</div>
-          <div className='footer-links-2'>
+          <div className='footer-links-6'>
              <div className='text-22'>Privacy Policy</div>
              <div className='text-23'>Terms Of Use</div>
              <div className='text-24'>Legal</div>
