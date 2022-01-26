@@ -2,61 +2,29 @@
     background-color: #262626;
     color: white;
 }
-.headings {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.headings {    
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 30px;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    margin-top: 40%;
+    margin-bottom: 50%;
 }
-.footer-links-1{
+.footer-links{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.links{    
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 0;
     font-size: 24px;
-    padding-bottom: 2%;
+    margin-bottom: 2%;
 }
-.footer-links-2{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 0;
-    font-size: 24px;
-    padding-bottom: 2%;
+.text-6 {
+    margin-bottom: 30%;
 }
-.footer-links-3{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 0;
-    font-size: 24px;
-    padding-bottom: 2%;
-}
-.footer-links-4{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 0;
-    font-size: 24px;
-    padding-bottom: 2%;
-}
-.footer-links-5{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 0;
-    font-size: 24px;
-    padding-bottom: 2%;
-}
+
 .footer-links-6{
     display: flex;
     justify-content: space-around;
