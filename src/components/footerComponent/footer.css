@@ -37,3 +37,19 @@
     padding-top: 10%; 
     padding-bottom: 1%;
 }
+.line-2{
+  border-left: 2px solid white;
+  margin-top: 5%;
+  height: 500px;
+}
+.line-3{
+  text-align: center;
+  width: 30px;
+  height: 3px;
+  background: rgb(255, 255, 255);
+  margin: 5px;
+  padding-left: 80%;
+  margin-left: 9%;
+  margin-top: 5px;
+  margin-bottom: 1%;
+}

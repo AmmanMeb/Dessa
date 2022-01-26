@@ -17,6 +17,7 @@ class Footer extends Component {
               <div className='text-6'>TV's</div> 
              </div>
             </div>
+            <div className='line-2'/>
             <div className='footer-links-2'>
              <div className='headings'>SUPPORT</div> 
              <div className='links'>
@@ -27,6 +28,7 @@ class Footer extends Component {
               <div className='text-9'>Accessibility</div> 
              </div>            
             </div>
+            <div className='line-2'/>
             <div className='footer-links-3'>
              <div className='headings'>COMPANY</div>
              <div className='links'>
@@ -39,6 +41,7 @@ class Footer extends Component {
             </div> 
           </div>
           <div className='text-21'>Copyright© 2021 DESSA All Rights Reserved.</div>
+          <div className='line-3'/>
           <div className='footer-links-6'>
              <div className='text-22'>Privacy Policy</div>
              <div className='text-23'>Terms Of Use</div>
