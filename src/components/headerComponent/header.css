@@ -74,6 +74,9 @@ form {
   color: black;
 }
 
+.input-container:valid input {
+  display: block;
+}
 .input-container:hover .fa {
   background: black;
   color: white;
@@ -84,7 +87,7 @@ form {
     position: absolute;
     cursor: pointer;
     right: 5%;
-    top: 4%;
+    top: 2%;
     z-index: 99;
     bottom: 16vh;
   }
@@ -133,6 +136,36 @@ form {
   .img-1 {
     z-index: 99;
     top: 1vh;
+  }
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+  .input-container:hover .search {
+    width: 200px;
+    color: black;
+  }
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-7px, 6px);
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-7px, -6px);
   }
 }
 

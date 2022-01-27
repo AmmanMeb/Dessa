@@ -53,3 +53,18 @@
   margin-top: 5px;
   margin-bottom: 1%;
 }
+@media only screen and (max-width: 900px) {
+    .headings {    
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 27px;
+        margin-top: 40%;
+        margin-bottom: 50%;
+    }
+    .links{    
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 0;
+        font-size: 19px;
+        margin-bottom: 2%;
+    }
+}
